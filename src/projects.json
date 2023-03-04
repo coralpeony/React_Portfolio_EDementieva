@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Horiseon",
+    "image": "/images/screenshotHoriseon.png",
+    "gitHubPages": "https://coralpeony.github.io/challenge_one_edementieva/",
+    "gitHub": "https://github.com/coralpeony/challenge_one_edementieva"
+  },
+  {
+    "id": 2,
+    "title": "Bootstrap Portfolio",
+    "image": "/images/screenshotBoostrapPortfolio.png",
+    "gitHubPages": "https://coralpeony.github.io/Bootstrap-Portfolio-EDementieva/",
+    "gitHub": "https://github.com/coralpeony/Bootstrap-Portfolio-EDementieva"
+  },
+  {
+    "id": 3,
+    "title": "Password generator",
+    "image": "/images/screenshotPasswordGenerator.png",
+    "gitHubPages": "https://coralpeony.github.io/Password-Generator-EDementieva/",
+    "gitHub": "https://github.com/coralpeony/Password-Generator-EDementieva"
+  },
+  {
+    "id": 4,
+    "title": "Code Quiz",
+    "image": "/images/screenshotCodeQuiz.png",
+    "gitHubPages": "https://coralpeony.github.io/Code_Quiz_EDementieva/",
+    "gitHub": "https://github.com/coralpeony/Code_Quiz_EDementieva"
+  },
+  {
+    "id": 5,
+    "title": "Daily Planner App",
+    "image": "/images/screenshotDailyPlanner.png",
+    "gitHubPages": "https://coralpeony.github.io/Daily_Planner_App_EDementieva/",
+    "gitHub": "https://github.com/coralpeony/Daily_Planner_App_EDementieva"
+  },
+  {
+    "id": 6,
+    "title": "Weather Dashboard",
+    "image": "/images/screenshotWeatherDashboard.png",
+    "gitHubPages": "https://coralpeony.github.io/Weather_Dashboard_EDementieva/",
+    "gitHub": "https://github.com/coralpeony/Weather_Dashboard_EDementieva"
+  }
+
+]

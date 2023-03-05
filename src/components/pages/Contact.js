@@ -11,11 +11,10 @@ function Contact(props) {
       <hr />
       <h3 className="textContact"> I am available for freelance work.</h3>
       <div class="col-md-12 text-center">
-      <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">My GitHub</a>
-      <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">My LinkedIn</a>
+      <a class="btn btn btn-outline-danger btn-lg margin-right" href="https://github.com/coralpeony" role="button">My GitHub</a>
+      <a class="btn btn btn-outline-danger btn-lg margin-right" href="https://www.linkedin.com/in/elena-dementieva-165b59140/" role="button">My LinkedIn</a>
       <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">My Resume</a>
-      <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">Call Me</a>
-      <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">Email Me</a>
+      <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">My email: coralpeony21@gmail.com</a>
 </div>
     </div>
   );

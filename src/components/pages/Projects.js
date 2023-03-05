@@ -5,7 +5,7 @@ import Project from "../Project";
 
 function Projects() {
   return (
-    <div className= "container d-flex">
+    <div className= "d-md-flex redfall">
    
 
       {projectsList.map((project) => (

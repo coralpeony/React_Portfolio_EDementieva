@@ -2,23 +2,23 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="container ">
+    <div className=" gif">
       <div className="row ">
-        <div className="col-md-12 bg-gradient">
-          <div className="card-body ">
+        <div className="col-md-12">
+          <div className="body ">
             <img
               src="/images/avatar.jpg"
               className="card-img-top"
               alt="red hair girl"
-              style={{ width: 500 }}
+              style={{ width: 450 }}
             />
 
-            <h3 className="card-title ">CoralPeony</h3>
-            <h1 className="d-flex justify-content-center">
+            <h3 className="card-title" style={{ color: "#b2b2b2" }}>CoralPeony</h3>
+            <h1 className="d-flex justify-content-center" style={{ color: "#e06377" }}>
               Welcome to my Portfolio
             </h1>
 
-            <p>
+            <p style={{ color: "#9fa9a3" }}>
               I'm thrilled to have this opportunity to introduce myself.
               I am a graduate of the Skills Boot Camp in Front-End Web
               Development, and I am passionate about learning, developing, and

@@ -13,13 +13,16 @@ body,
 
 .gif {
   background-image: url(../public/images/peonyleftgif.gif);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-size: 60%;
+  height: 100%;
 }
 
 .redfall {
   background-image: url(../public/images/fallingflowersred.gif);
-  background-size: 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .body {
@@ -58,6 +61,14 @@ body,
 }
 
 
+.textContact {
+  text-align: center;
+  color: #d6d4e0;
+  
+ 
+}
+
+
 
 
 
@@ -65,4 +76,15 @@ body,
   margin-top: 4%;
   margin-bottom: 2%;
   color: #c83349;
+}
+
+.contactBackground{
+  background-image: url(../public/images/flowers-anime.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.margin-right {
+  margin-right: 4%;
 }

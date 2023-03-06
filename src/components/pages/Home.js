@@ -6,6 +6,9 @@ function Home() {
       <div className="row ">
         <div className="col-md-12">
           <div className="body ">
+          <h1 className="d-flex justify-content-center" style={{ color: "#e06377" }}>
+              Welcome to my Portfolio
+            </h1>
             <img
               src="/images/avatar.jpg"
               className="card-img-top"
@@ -14,9 +17,7 @@ function Home() {
             />
 
             <h3 className="card-title" style={{ color: "#b2b2b2" }}>Elena Dementieva</h3>
-            <h1 className="d-flex justify-content-center" style={{ color: "#e06377" }}>
-              Welcome to my Portfolio
-            </h1>
+
 
             <p style={{ color: "#9fa9a3" }}>
               I'm thrilled to have this opportunity to introduce myself.

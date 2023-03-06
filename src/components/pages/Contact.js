@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+//import { Link, Route, Routes } from 'react-router-dom';
 
 
 function Contact(props) {
@@ -13,9 +13,29 @@ function Contact(props) {
       <div class="col-md-12 text-center">
       <a class="btn btn btn-outline-danger btn-lg margin-right" href="https://github.com/coralpeony" role="button">My GitHub</a>
       <a class="btn btn btn-outline-danger btn-lg margin-right" href="https://www.linkedin.com/in/elena-dementieva-165b59140/" role="button">My LinkedIn</a>
-      <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">My Resume</a>
+
+      <a class="btn btn btn-outline-danger btn-lg margin-right" href={require("../../assets/cv.pdf")} /*download*/ role="button">My Resume</a>
       <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">My email: coralpeony21@gmail.com</a>
+//
+      <form name="contact" method="post">
+      <p>
+        <label htmlFor="name">Name</label> <br />
+        <input type="text" id="name" name="name" required />
+      </p>
+      <p>
+        <label htmlFor="email">Email</label> <br />
+        <input type="email" id="email" name="email" required />
+      </p>
+      <p>
+        <label htmlFor="message">Message</label> <br />
+        <textarea id="message" name="message" required></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Submit message" />
+      </p>
+    </form>
 </div>
+
     </div>
   );
 }

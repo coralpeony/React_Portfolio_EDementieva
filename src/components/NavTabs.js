@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav mobile-view">
       <li className="nav-item">
         <NavLink
           to="/"

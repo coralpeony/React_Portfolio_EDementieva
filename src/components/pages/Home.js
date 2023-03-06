@@ -13,7 +13,7 @@ function Home() {
               style={{ width: 450 }}
             />
 
-            <h3 className="card-title" style={{ color: "#b2b2b2" }}>CoralPeony</h3>
+            <h3 className="card-title" style={{ color: "#b2b2b2" }}>Elena Dementieva</h3>
             <h1 className="d-flex justify-content-center" style={{ color: "#e06377" }}>
               Welcome to my Portfolio
             </h1>

@@ -1,21 +1,23 @@
-
+import Card from "react-bootstrap/Card";
 
 
 function Project({project}) {
 return(
 
-<div className="card" style={{ width: "25rem" }} >
-<img className="image-container h-100" src={project.image} />
+<Card style={{ width: "18rem" }} >
+<Card.Img  src={project.image} className="card-image" />
 <div className="content">
-<h5> {project.title}</h5>
-<a href={project.gitHubPages} className="btn btn-info">See the project</a>
-<a href={project.gitHub} className="btn btn-link">See the code</a>
+    <Card.Body>
+<Card.Title className="card-title"> {project.title} </Card.Title>
+<Card.Link href={project.gitHubPages} className="btn btn-link">See the project</Card.Link>
+<Card.Link href={project.gitHub} className="btn btn-link">See the code</Card.Link>
+</Card.Body>
 </div>
-</div>
+</Card>
 
 
 
-)
+);
 }
 
 export default Project;

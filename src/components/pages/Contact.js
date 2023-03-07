@@ -16,8 +16,11 @@ function Contact(props) {
 
       <a class="btn btn btn-outline-danger btn-lg margin-right" href={require("../../assets/cv.pdf")} /*download*/ role="button">My Resume</a>
       <a class="btn btn btn-outline-danger btn-lg margin-right" href="#" role="button">My email: coralpeony21@gmail.com</a>
-//
-      <form name="contact" method="post">
+
+{/* submit form */}
+
+<form name="contact" method="post">
+      <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="name">Name</label> <br />
         <input type="text" id="name" name="name" required />
